@@ -41,7 +41,7 @@ Cache.prototype = {
         if (this.size === this.limit) {
             this.shift()
         }
-        this.size++ //#2098
+        this.size++//#2098
         return value
     },
 
